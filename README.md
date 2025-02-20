@@ -11,4 +11,4 @@ Each MAC module symbolizes a single multiply-accumulate unit. It takes input dat
 The MMU module orchestrates the interaction between multiple MAC modules, arranging them in a systolic array for matrix multiplication. The MAC module manages single multiply-accumulate operations, including weight loading and accumulator reset. This design aims at efficient matrix multiplication in a systolic array configuration. The correct flow of data and weights is crucial for system integrity, as verified through extensive testing and verification procedures.
 
 # Performance Analysis
-DC synthesis using the ASAP7 PDK provided detailed reports on area, timing, power, synthesis, and possible violations. Post-synthesis gate-level simulation results were also validated, offering deeper insights into the design's performance and behavior. For more comprehensive details, please refer to the results.pdf.
+DC synthesis using the ASAP7 PDK provided detailed reports on area, timing, power, synthesis, and possible violations. Post-synthesis gate-level simulation results were also validated, offering deeper insights into the design's performance and behavior. 
